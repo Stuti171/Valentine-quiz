@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💖</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffe6eb;
+      text-align: center;
+      color: #C21807;
+      overflow: hidden;
+    }
+    h1, h2 {
+      font-family: 'Great Vibes', cursive;
+    }
+    .quiz-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 60%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    button {
+      background-color: #C21807;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #ff3366;
+    }
+    .closing {
+      margin-top: 40px;
+      font-size: 20px;
+      font-style: italic;
+    }
+    /* Floating hearts animation */
+    .heart {
+      position: fixed;
+      bottom: -50px;
+      color: #ff3366;
+      font-size: 24px;
+      animation: floatUp 8s infinite;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Every answer is a piece of our love story…</h1>
+  <h2>My love, will you be my Valentine?</h2>
+  <button>Yes, forever 💖</button>
+  <button>Hmm… let’s play first 😉</button>
+
+  <div class="quiz-card">
+    <h3>Where did we first meet?</h3>
+    <button>College</button>
+    <button>Office</button>
+    <button>Café ✅</button>
+    <button>Park</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>What’s my comfort food?</h3>
+    <button>Pizza</button>
+    <button>Ice cream</button>
+    <button>Noodle Thukpa ✅</button>
+    <button>Mom’s cooking</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Who said “I love you” first?</h3>
+    <button>Me ✅</button>
+    <button>You</button>
+    <button>We said it together</button>
+    <button>Still waiting 😜</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>If we could travel anywhere right now, where would I want to go?</h3>
+    <button>Hill station ✅</button>
+    <button>Beach</button>
+    <button>City lights</button>
+    <button>Countryside</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Who steals the blanket at night?</h3>
+    <button>Me</button>
+    <button>You ✅</button>
+    <button>We fight for it</button>
+    <button>The blanket disappears mysteriously</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Who takes longer to get ready?</h3>
+    <button>Me ✅</button>
+    <button>You</button>
+    <button>Depends on the mood</button>
+    <button>Neither</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>What’s our favorite lazy weekend activity?</h3>
+    <button>Netflix & darru ✅</button>
+    <button>Long walks</button>
+    <button>Cooking together</button>
+    <button>Sleeping in</button>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Answer these from the heart…</h3>
+    <p>Which song reminds you of us? 🎶</p>
+    <p>What’s your favorite memory of us so far? 🌸</p>
+    <p>If we had a couple nickname, what would it be? 💕</p>
+  </div>
+
+  <div class="closing">
+    <p>No matter how you answer, you’re already my forever favorite. 💌</p>
+    <button>Be My Valentine ❤️</button>
+  </div>
+
+  <!-- Floating hearts -->
+  <div class="heart" style="left:10%;">❤️</div>
+  <div class="heart" style="left:30%;">💖</div>
+  <div class="heart" style="left:50%;">💕</div>
+  <div class="heart" style="left:70%;">💞</div>
+  <div class="heart" style="left:90%;">💘</div>
+</body>
+</html>
